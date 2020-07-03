@@ -13,6 +13,8 @@
 		3844F8E024AE5975004F1AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3844F8DF24AE5975004F1AC3 /* Assets.xcassets */; };
 		3844F8E324AE5975004F1AC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3844F8E224AE5975004F1AC3 /* Preview Assets.xcassets */; };
 		3844F8E624AE5975004F1AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3844F8E424AE5975004F1AC3 /* LaunchScreen.storyboard */; };
+		3844F8EF24AE5F29004F1AC3 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3844F8EE24AE5F29004F1AC3 /* Pacifico-Regular.ttf */; };
+		3844F8F124AFBF60004F1AC3 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3844F8F024AFBF60004F1AC3 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3844F8E224AE5975004F1AC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3844F8E524AE5975004F1AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3844F8E724AE5975004F1AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3844F8EE24AE5F29004F1AC3 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		3844F8F024AFBF60004F1AC3 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		3844F8D824AE5973004F1AC3 /* Business Card App */ = {
 			isa = PBXGroup;
 			children = (
+				3844F8ED24AE5EB5004F1AC3 /* fonts */,
 				3844F8D924AE5973004F1AC3 /* AppDelegate.swift */,
 				3844F8DB24AE5973004F1AC3 /* SceneDelegate.swift */,
 				3844F8DD24AE5973004F1AC3 /* ContentView.swift */,
+				3844F8F024AFBF60004F1AC3 /* InfoView.swift */,
 				3844F8DF24AE5975004F1AC3 /* Assets.xcassets */,
 				3844F8E424AE5975004F1AC3 /* LaunchScreen.storyboard */,
 				3844F8E724AE5975004F1AC3 /* Info.plist */,
@@ -73,6 +79,14 @@
 				3844F8E224AE5975004F1AC3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3844F8ED24AE5EB5004F1AC3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3844F8EE24AE5F29004F1AC3 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3844F8E624AE5975004F1AC3 /* LaunchScreen.storyboard in Resources */,
+				3844F8EF24AE5F29004F1AC3 /* Pacifico-Regular.ttf in Resources */,
 				3844F8E324AE5975004F1AC3 /* Preview Assets.xcassets in Resources */,
 				3844F8E024AE5975004F1AC3 /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3844F8F124AFBF60004F1AC3 /* InfoView.swift in Sources */,
 				3844F8DA24AE5973004F1AC3 /* AppDelegate.swift in Sources */,
 				3844F8DC24AE5973004F1AC3 /* SceneDelegate.swift in Sources */,
 				3844F8DE24AE5973004F1AC3 /* ContentView.swift in Sources */,
